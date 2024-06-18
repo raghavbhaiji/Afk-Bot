@@ -6,8 +6,8 @@
   },
 
   "server": {
-    "ip": "localhost",
-    "port": 25565,
+    "ip": "DholakpurS1.aternos.me",
+    "port": 40533,
     "version": "1.19.3"
   },
 
@@ -20,15 +20,15 @@
 
   "utils": {
     "auto-auth": {
-      "enabled": false,
+      "enabled": true,
       "password": "12345678"
     },
 
     "anti-afk": {
-      "enabled": false,
-      "sneak": false,
-      "jump": false,
-      "rotate": false,
+      "enabled": true,
+      "sneak": true,
+      "jump": true,
+      "rotate": true,
 
       "hit": {
         "enabled": false,
@@ -36,8 +36,8 @@
         "attack-mobs": false
       },
 
-      "circle-walk": {
-        "enabled": false,
+      "jump": {
+        "enabled": true,
         "radius": 2
       }
     },
