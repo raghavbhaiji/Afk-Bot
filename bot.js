@@ -82,7 +82,7 @@ function createBot() {
 
          if (config.utils['anti-afk']['hit'].enabled) {
             let delay = config.utils['anti-afk']['hit']['delay'];
-            let attackMobs = config.utils['anti-afk']['hit']['attack-mobs']
+            let attackMobs = config.utils['anti-afk']['jump']['attack-mobs']
 
             setInterval(() => {
                if(attackMobs) {
